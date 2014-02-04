@@ -1,0 +1,7 @@
+kjs (4.95.0-0ubuntu1) trusty; urgency=low
+
+  * Initial release
+  * Add rename-kjs-binary.diff to rename binary
+    https://git.reviewboard.kde.org/r/114936/
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Jan 2014 11:35:49 +0000
