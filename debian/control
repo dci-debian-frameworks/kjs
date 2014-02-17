@@ -4,15 +4,16 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, pkg-config, libpcre3-dev
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, pkg-config, libpcre3-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kjs
 
 Package: libkf5kjs-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5js5 (= ${binary:Version}), 
-         libkf5jsapi5 (= ${binary:Version}), ${misc:Depends}
+Depends: ${shlibs:Depends},
+	 libkf5js4 (= ${binary:Version}), 
+         libkf5jsapi4 (= ${binary:Version}), ${misc:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
@@ -20,7 +21,7 @@ Description: Support for JS scripting in Qt applications
  .
  This package contains the development files.
 
-Package: libkf5js5
+Package: libkf5js4
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -30,7 +31,7 @@ Description: Support for JS scripting in Qt applications
  .
  This package is part of KDE Frameworks 5.
 
-Package: libkf5jsapi5
+Package: libkf5jsapi4
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -40,13 +41,13 @@ Description: Support for JS scripting in Qt applications
  .
  This package is part of KDE Frameworks 5.
 
-Package: libkf5kjs5-dbg
+Package: libkf5js4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5js5 (= ${binary:Version}),
-         libkf5jsapi5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5js4 (= ${binary:Version}),
+         libkf5jsapi4 (= ${binary:Version}), ${misc:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .

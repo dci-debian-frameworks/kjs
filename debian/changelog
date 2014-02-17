@@ -1,3 +1,9 @@
+kjs (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 17 Feb 2014 07:17:36 -0800
+
 kjs (4.95.0-0ubuntu1) trusty; urgency=low
 
   * Initial release
