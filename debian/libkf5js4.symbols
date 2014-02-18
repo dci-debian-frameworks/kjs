@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
 libKF5JS.so.4 libkf5js4 #MINVER#
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4.96.0
  _ZN3KJS10Identifier3addEPKNS_5UCharEi@Base 4.96.0
@@ -18,7 +18,7 @@ libKF5JS.so.4 libkf5js4 #MINVER#
  _ZN3KJS11FunctionImp14deletePropertyEPNS_9ExecStateERKNS_10IdentifierE@Base 4.96.0
  _ZN3KJS11FunctionImp14initialCompileEPNS_9ExecStateE@Base 4.96.0
  _ZN3KJS11FunctionImp15argumentsGetterEPNS_9ExecStateEPNS_8JSObjectERKNS_10IdentifierERKNS_12PropertySlotE@Base 4.96.0
- _ZN3KJS11FunctionImp16getParameterNameEm@Base 4.96.0
+ (subst)_ZN3KJS11FunctionImp16getParameterNameE{size_t}@Base 4.96.0
  _ZN3KJS11FunctionImp18getOwnPropertySlotEPNS_9ExecStateERKNS_10IdentifierERNS_12PropertySlotE@Base 4.96.0
  _ZN3KJS11FunctionImp24getOwnPropertyDescriptorEPNS_9ExecStateERKNS_10IdentifierERNS_18PropertyDescriptorE@Base 4.96.0
  _ZN3KJS11FunctionImp3putEPNS_9ExecStateERKNS_10IdentifierEPNS_7JSValueEi@Base 4.96.0
@@ -33,7 +33,7 @@ libKF5JS.so.4 libkf5js4 #MINVER#
  _ZN3KJS11Interpreter10globalExecEv@Base 4.96.0
  _ZN3KJS11Interpreter11checkSyntaxERKNS_7UStringEiPKNS_5UCharEi@Base 4.96.0
  _ZN3KJS11Interpreter11checkSyntaxERKNS_7UStringEiS3_@Base 4.96.0
- _ZN3KJS11Interpreter11extendStackEm@Base 4.96.0
+ (subst)_ZN3KJS11Interpreter11extendStackE{size_t}@Base 4.96.0
  _ZN3KJS11Interpreter12internStringERKNS_7UStringE@Base 4.96.0
  _ZN3KJS11Interpreter13globalPackageEv@Base 4.96.0
  _ZN3KJS11Interpreter13handleTimeoutEv@Base 4.96.0
@@ -185,7 +185,7 @@ libKF5JS.so.4 libkf5js4 #MINVER#
  _ZN3KJS6JSCellD0Ev@Base 4.96.0
  _ZN3KJS6JSCellD1Ev@Base 4.96.0
  _ZN3KJS6JSCellD2Ev@Base 4.96.0
- _ZN3KJS6JSCellnwEm@Base 4.96.0
+ (subst)_ZN3KJS6JSCellnwE{size_t}@Base 4.96.0
  _ZN3KJS6JSLock12DropAllLocksC1Ev@Base 4.96.0
  _ZN3KJS6JSLock12DropAllLocksC2Ev@Base 4.96.0
  _ZN3KJS6JSLock12DropAllLocksD1Ev@Base 4.96.0
@@ -194,10 +194,10 @@ libKF5JS.so.4 libkf5js4 #MINVER#
  _ZN3KJS6Lookup4findEPKNS_9HashTableERKNS_10IdentifierE@Base 4.96.0
  _ZN3KJS6Lookup9findEntryEPKNS_9HashTableERKNS_10IdentifierE@Base 4.96.0
  _ZN3KJS7CStringC1EPKc@Base 4.96.0
- _ZN3KJS7CStringC1EPKcm@Base 4.96.0
+ (subst)_ZN3KJS7CStringC1EPKc{size_t}@Base 4.96.0
  _ZN3KJS7CStringC1ERKS0_@Base 4.96.0
  _ZN3KJS7CStringC2EPKc@Base 4.96.0
- _ZN3KJS7CStringC2EPKcm@Base 4.96.0
+ (subst)_ZN3KJS7CStringC2EPKc{size_t}@Base 4.96.0
  _ZN3KJS7CStringC2ERKS0_@Base 4.96.0
  _ZN3KJS7CStringD1Ev@Base 4.96.0
  _ZN3KJS7CStringD2Ev@Base 4.96.0
@@ -237,17 +237,17 @@ libKF5JS.so.4 libkf5js4 #MINVER#
  _ZN3KJS7UStringC1ENS0_5EmptyE@Base 4.96.0
  _ZN3KJS7UStringC1EPKNS_5UCharEi@Base 4.96.0
  _ZN3KJS7UStringC1EPKc@Base 4.96.0
- _ZN3KJS7UStringC1EPKcm@Base 4.96.0
+ (subst)_ZN3KJS7UStringC1EPKc{size_t}@Base 4.96.0
  _ZN3KJS7UStringC1EPNS_5UCharEib@Base 4.96.0
- _ZN3KJS7UStringC1ERKN3WTF6VectorINS_5UCharELm0EEE@Base 4.96.0
+ (subst)_ZN3KJS7UStringC1ERKN3WTF6VectorINS_5UCharEL{size_t}0EEE@Base 4.96.0
  _ZN3KJS7UStringC1ERKS0_S2_@Base 4.96.0
  _ZN3KJS7UStringC1Ec@Base 4.96.0
  _ZN3KJS7UStringC2ENS0_5EmptyE@Base 4.96.0
  _ZN3KJS7UStringC2EPKNS_5UCharEi@Base 4.96.0
  _ZN3KJS7UStringC2EPKc@Base 4.96.0
- _ZN3KJS7UStringC2EPKcm@Base 4.96.0
+ (subst)_ZN3KJS7UStringC2EPKc{size_t}@Base 4.96.0
  _ZN3KJS7UStringC2EPNS_5UCharEib@Base 4.96.0
- _ZN3KJS7UStringC2ERKN3WTF6VectorINS_5UCharELm0EEE@Base 4.96.0
+ (subst)_ZN3KJS7UStringC2ERKN3WTF6VectorINS_5UCharEL{size_t}0EEE@Base 4.96.0
  _ZN3KJS7UStringC2ERKS0_S2_@Base 4.96.0
  _ZN3KJS7UStringC2Ec@Base 4.96.0
  _ZN3KJS7UStringaSENS0_5EmptyE@Base 4.96.0
@@ -303,7 +303,7 @@ libKF5JS.so.4 libkf5js4 #MINVER#
  _ZN3KJS8jsStringEv@Base 4.96.0
  _ZN3KJS9Collector10memoryFullE@Base 4.96.0
  _ZN3KJS9Collector15numInterpretersEv@Base 4.96.0
- _ZN3KJS9Collector15recordExtraCostEm@Base 4.96.0
+ (subst)_ZN3KJS9Collector15recordExtraCostE{size_t}@Base 4.96.0
  _ZN3KJS9Collector19numProtectedObjectsEv@Base 4.96.0
  _ZN3KJS9Collector20markProtectedObjectsEv@Base 4.96.0
  _ZN3KJS9Collector20rootObjectTypeCountsEv@Base 4.96.0
@@ -314,7 +314,7 @@ libKF5JS.so.4 libkf5js4 #MINVER#
  _ZN3KJS9Collector4sizeEv@Base 4.96.0
  _ZN3KJS9Collector7collectEv@Base 4.96.0
  _ZN3KJS9Collector7protectEPNS_7JSValueE@Base 4.96.0
- _ZN3KJS9Collector8allocateEm@Base 4.96.0
+ (subst)_ZN3KJS9Collector8allocateE{size_t}@Base 4.96.0
  _ZN3KJS9Collector9unprotectEPNS_7JSValueE@Base 4.96.0
  _ZN3KJS9ExecState11quietUnwindEi@Base 4.96.0
  _ZN3KJS9ExecState12setExceptionEPNS_7JSValueE@Base 4.96.0
@@ -456,7 +456,7 @@ libKF5JS.so.4 libkf5js4 #MINVER#
  _ZNK3KJS8JSObject9classNameEv@Base 4.96.0
  _ZNK3KJS8JSObject9toBooleanEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS9ExecState18lexicalInterpreterEv@Base 4.96.0
- (optional=templinst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EE17_M_initialize_mapEm@Base 4.96.0
+ (optional=templinst|subst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EE17_M_initialize_mapE{size_t}@Base 4.96.0
  (optional=templinst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED1Ev@Base 4.96.0
  (optional=templinst)_ZNSt11_Deque_baseIPN3KJS7JSValueESaIS2_EED2Ev@Base 4.96.0
  (optional=templinst)_ZNSt5dequeIPN3KJS7JSValueESaIS2_EE16_M_push_back_auxIIRKS2_EEEvDpOT_@Base 4.96.0
