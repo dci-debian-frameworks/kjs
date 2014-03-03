@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5JSApi.so.4 libkf5jsapi4 #MINVER#
+libKF5JSApi.so.5 libkf5jsapi5 #MINVER#
  _ZN10KJSBooleanC1Eb@Base 4.96.0
  _ZN10KJSBooleanC2Eb@Base 4.96.0
  _ZN10KJSContext11interpreterEv@Base 4.96.0

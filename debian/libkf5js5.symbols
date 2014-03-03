@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64 i386
-libKF5JS.so.4 libkf5js4 #MINVER#
+libKF5JS.so.5 libkf5js5 #MINVER#
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4.96.0
  _ZN3KJS10Identifier3addEPKNS_5UCharEi@Base 4.96.0
  _ZN3KJS10Identifier3addEPKc@Base 4.96.0
