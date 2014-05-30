@@ -5,6 +5,7 @@ kjs (4.99.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Install *.pri files in arch dependent path.
+  * Use ${allLibraries} for in -dev and -dbg depends.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:55 +0100
 

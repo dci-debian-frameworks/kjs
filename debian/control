@@ -11,9 +11,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kjs
 Package: libkf5kjs-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends},
-	 libkf5js5 (= ${binary:Version}), 
-         libkf5jsapi5 (= ${binary:Version}), ${misc:Depends}
+Depends: ${allLibraries}, ${shlibs:Depends}, ${misc:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
@@ -46,8 +44,7 @@ Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5js5 (= ${binary:Version}),
-         libkf5jsapi5 (= ${binary:Version}), ${misc:Depends}
+Depends: ${allLibraries}, ${misc:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
