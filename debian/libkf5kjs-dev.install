@@ -4,4 +4,4 @@ usr/lib/*/libKF5JSApi.so
 usr/lib/*/cmake/
 usr/bin/kjs5
 usr/share/kf5/kjs/create_hash_table
-usr/share/qt5/mkspecs/modules/*
+usr/lib/*/qt5/mkspecs/modules/*
