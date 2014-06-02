@@ -3,18 +3,24 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, pkg-config, libpcre3-dev
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               libpcre3-dev,
+               pkg-config,
+               pkg-kde-tools,
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kjs
 
 Package: libkf5kjs-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends},
-	 libkf5js5 (= ${binary:Version}), 
-         libkf5jsapi5 (= ${binary:Version}), ${misc:Depends},
-         qtbase5-dev
+Depends: libkf5js5 (= ${binary:Version}),
+         libkf5jsapi5 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
@@ -26,7 +32,7 @@ Package: libkf5js5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
@@ -36,7 +42,7 @@ Package: libkf5jsapi5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
@@ -48,7 +54,8 @@ Section: debug
 Architecture: any
 Multi-Arch: same
 Depends: libkf5js5 (= ${binary:Version}),
-         libkf5jsapi5 (= ${binary:Version}), ${misc:Depends}
+         libkf5jsapi5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .

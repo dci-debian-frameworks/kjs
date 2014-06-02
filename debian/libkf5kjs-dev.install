@@ -1,7 +1,7 @@
+usr/bin/kjs5
 usr/include/KF5/
+usr/lib/*/cmake/
 usr/lib/*/libKF5JS.so
 usr/lib/*/libKF5JSApi.so
-usr/lib/*/cmake/
-usr/bin/kjs5
-usr/share/kf5/kjs/create_hash_table
 usr/lib/*/qt5/mkspecs/modules/*
+usr/share/kf5/kjs/create_hash_table
