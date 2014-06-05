@@ -31,7 +31,6 @@ Description: Support for JS scripting in Qt applications
 Package: libkf5js5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
@@ -41,7 +40,6 @@ Description: Support for JS scripting in Qt applications
 Package: libkf5jsapi5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
