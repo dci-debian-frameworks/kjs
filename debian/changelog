@@ -5,6 +5,8 @@ kjs (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Fix install files 
+  * Update watch file to stable
+  * Add Vcs
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:38:30 +0200
 

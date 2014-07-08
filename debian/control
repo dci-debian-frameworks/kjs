@@ -12,6 +12,8 @@ Build-Depends: cmake,
                qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kjs
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kjs
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kjs
 
 Package: libkf5kjs-dev
 Section: libdevel
