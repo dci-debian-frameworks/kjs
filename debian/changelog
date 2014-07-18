@@ -8,6 +8,10 @@ kjs (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update watch file to stable
   * Add Vcs
 
+  [ José Manuel Santamaría Lema ]
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:38:30 +0200
 
 kjs (4.100.0-0ubuntu1) utopic; urgency=medium
