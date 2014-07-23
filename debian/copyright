@@ -3,6 +3,7 @@ Upstream-Name: kjs
 Source: https://projects.kde.org/projects/frameworks/kjs
 
 Files: *
+ debian/*
 Copyright: 2003, 2004, 2005, 2006, 2007 Apple Computer, Inc.
  2006 Alexey Proskuryakov <ap@nypop.com>
  2006 Bjorn Graf (bjoern.graf@gmail.com)
@@ -15,6 +16,7 @@ Copyright: 2003, 2004, 2005, 2006, 2007 Apple Computer, Inc.
  2007 Maksim Orlovich <maksim@kde.org>
  2007 Maks Orlovich
  2012 Rolf Eike Beer <kde@opensource.sf-tec.de>
+ 2014 Jonathan Riddell <jriddell@ubuntu.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -89,24 +91,3 @@ License: BSD 3 clause Apple
  OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-Files: debian/*
-       src/kjs/propertydescriptor.h
-Copyright: 2014 Jonathan Riddell <jriddell@ubuntu.com>
-           2012  Bernd Buschinski <b.buschinski@googlemail.com>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
