@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5JS.so.5 libkf5js5 #MINVER#
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4.96.0
  _ZN3KJS10Identifier3addEPKNS_5UCharEi@Base 4.96.0
@@ -158,9 +158,6 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZN3KJS19InternalFunctionImpC2EPNS_17FunctionPrototypeE@Base 4.96.0
  _ZN3KJS19InternalFunctionImpC2EPNS_17FunctionPrototypeERKNS_10IdentifierE@Base 4.96.0
  _ZN3KJS19InternalFunctionImpC2Ev@Base 4.96.0
- _ZN3KJS19InternalFunctionImpD0Ev@Base 4.96.0
- _ZN3KJS19InternalFunctionImpD1Ev@Base 4.96.0
- _ZN3KJS19InternalFunctionImpD2Ev@Base 4.96.0
  _ZN3KJS21StandardGlobalPackage14loadSubPackageERKNS_10IdentifierEPNS_7UStringE@Base 4.96.0
  _ZN3KJS21StandardGlobalPackageC1Ev@Base 4.96.0
  _ZN3KJS21StandardGlobalPackageC2Ev@Base 4.96.0
@@ -182,9 +179,6 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZN3KJS5Error6createEPNS_9ExecStateENS_9ErrorTypeERKNS_7UStringEiiS6_@Base 4.96.0
  _ZN3KJS6JSCell4markEv@Base 4.96.0
  _ZN3KJS6JSCell9getObjectEv@Base 4.96.0
- _ZN3KJS6JSCellD0Ev@Base 4.96.0
- _ZN3KJS6JSCellD1Ev@Base 4.96.0
- _ZN3KJS6JSCellD2Ev@Base 4.96.0
  (subst)_ZN3KJS6JSCellnwE{size_t}@Base 4.96.0
  _ZN3KJS6JSLock12DropAllLocksC1Ev@Base 4.96.0
  _ZN3KJS6JSLock12DropAllLocksC2Ev@Base 4.96.0
