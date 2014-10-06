@@ -41,7 +41,7 @@ Files: src/wtf/Assertions.h
        src/wtf/HashIterators.h
        src/wtf/MathExtras.h
 Copyright: 2003, 2006, 2007 Apple Inc
-License: BSD 2 clause
+License: BSD-2-Clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
@@ -67,7 +67,7 @@ Files: src/kjs/SymbolTable.h
        src/wtf/ASCIICType.h
        src/wtf/DisallowCType.h
 Copyright: 2003, 2006, 2007 Apple Inc
-License: BSD 3 clause Apple
+License: BSD-3-Clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
