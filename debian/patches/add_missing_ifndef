@@ -1,0 +1,22 @@
+Index: kjs/src/wtf/RefPtrHashMap.h
+===================================================================
+--- kjs.orig/src/wtf/RefPtrHashMap.h	2015-02-05 10:30:30.532783170 +0100
++++ kjs/src/wtf/RefPtrHashMap.h	2015-02-05 15:44:25.579499347 +0100
+@@ -16,7 +16,10 @@
+  * the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+  * Boston, MA 02110-1301, USA.
+  *
+- */
++*/
++
++#ifndef WTF_RefPtrHashMap_h
++#define WTF_RefPtrHashMap_h
+ 
+ namespace WTF
+ {
+@@ -347,3 +350,5 @@
+ }
+ 
+ } // namespace WTF
++
++#endif // WTF_RefPtrHashMap_h
