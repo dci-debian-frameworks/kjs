@@ -1,0 +1,19 @@
+Index: kjs/src/kjs/CMakeLists.txt
+===================================================================
+--- kjs.orig/src/kjs/CMakeLists.txt	2015-02-05 15:25:15.946415800 +0100
++++ kjs/src/kjs/CMakeLists.txt	2015-02-05 15:25:36.425585558 +0100
+@@ -305,10 +305,14 @@
+   ustring.h
+   value.h
+   ${CMAKE_CURRENT_BINARY_DIR}/global.h
++  ${CMAKE_CURRENT_BINARY_DIR}/opcodes.h
+   DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/kjs
+   COMPONENT Devel
+ )
+ 
++install(FILES bytecode/opargs.h
++  DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/kjs/bytecode COMPONENT Devel)
++
+ install(FILES create_hash_table DESTINATION ${KF5_DATA_INSTALL_DIR}/kjs/ )
+ 
+ include(ECMGeneratePriFile)
