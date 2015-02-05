@@ -10,6 +10,7 @@ kjs (5.6.0-1~) UNRELEASED; urgency=medium
   * Add basic autopkgtests support.
   * New patch: install_missing_headers.
   * New patch: add_missing_ifndef.
+  * Add missing dependency in -dev package.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 05 Feb 2015 10:30:05 +0100
 

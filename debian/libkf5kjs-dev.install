@@ -1,7 +1,7 @@
 usr/bin/kjs5
 usr/include/KF5/kjs/
-usr/include/KF5/wtf/
 usr/include/KF5/kjs_version.h
+usr/include/KF5/wtf/
 usr/lib/*/cmake/KF5JS/
 usr/lib/*/libKF5JS.so
 usr/lib/*/libKF5JSApi.so

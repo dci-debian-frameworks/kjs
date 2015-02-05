@@ -21,6 +21,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5js5 (= ${binary:Version}),
          libkf5jsapi5 (= ${binary:Version}),
+         libpcre3-dev,
          qtbase5-dev (>= 5.2.0),
          ${misc:Depends},
          ${shlibs:Depends}
