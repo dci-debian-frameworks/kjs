@@ -1,6 +1,8 @@
 kjs (5.6.0-1~) UNRELEASED; urgency=medium
 
   * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 05 Feb 2015 10:30:05 +0100
 
