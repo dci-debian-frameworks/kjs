@@ -11,7 +11,7 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kjs
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kjs.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kjs.git
