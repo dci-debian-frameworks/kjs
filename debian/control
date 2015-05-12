@@ -10,7 +10,7 @@ Build-Depends: cmake (>= 2.8.12),
                libpcre3-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0)
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kjs
@@ -23,7 +23,7 @@ Architecture: any
 Depends: libkf5js5 (= ${binary:Version}),
          libkf5jsapi5 (= ${binary:Version}),
          libpcre3-dev,
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Support for JS scripting in Qt applications
