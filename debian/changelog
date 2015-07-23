@@ -14,6 +14,9 @@ kjs (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
       ALWAYS_INLINE, a macro defined in <wtf/Platform.h> which ends up using 
       __attribute__((always_inline))
 
+  [ Scarlett Clark ]
+  * Vivid backports. 
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:16:15 -0700
 
 kjs (5.11.0-1) unstable; urgency=medium
