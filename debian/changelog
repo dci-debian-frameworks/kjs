@@ -16,6 +16,8 @@ kjs (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Batchpatch new symbols. 
+  * Vivid backports. 
+  * Fix merge. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:16:15 -0700
 
