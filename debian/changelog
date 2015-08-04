@@ -1,3 +1,9 @@
+kjs (5.12.0-0ubuntu2) wily; urgency=medium
+
+  * Update symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 05 Aug 2015 00:14:11 +0200
+
 kjs (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]

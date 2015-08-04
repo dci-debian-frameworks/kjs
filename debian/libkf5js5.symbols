@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.12.0 amd64 armhf i386 powerpc ppc64el
 libKF5JS.so.5 libkf5js5 #MINVER#
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4.96.0
  _ZN3KJS10Identifier3addEPKNS_5UCharEi@Base 4.96.0
@@ -370,7 +370,7 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZNK3KJS13ArrayInstance21getPropertyAttributesERKNS_10IdentifierERj@Base 4.96.0
  _ZNK3KJS13ArrayInstance7getItemEj@Base 4.96.0
  _ZNK3KJS13ArrayInstance9getDirectERKNS_10IdentifierE@Base 4.96.0
- (arch=i386)_ZNK3KJS14ScopeChainLink4nextEv@Base 5.12.0
+ (arch=armhf i386 powerpc)_ZNK3KJS14ScopeChainLink4nextEv@Base 5.12.0
  _ZNK3KJS18PropertyDescriptor10attributesEv@Base 4.96.0
  _ZNK3KJS18PropertyDescriptor10enumerableEv@Base 4.96.0
  _ZNK3KJS18PropertyDescriptor11writableSetEv@Base 4.96.0
@@ -495,6 +495,7 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZTVN3KJS19InternalFunctionImpE@Base 4.96.0
  _ZTVN3KJS21StandardGlobalPackageE@Base 4.96.0
  _ZTVN3KJS6JSCellE@Base 4.96.0
+ (arch=!armhf)_ZTVN3KJS7JSValueE@Base 5.12.0
  _ZTVN3KJS7JSValueE@Base 4.96.0
  _ZTVN3KJS7PackageE@Base 4.96.0
  _ZTVN3KJS8DebuggerE@Base 4.96.0
