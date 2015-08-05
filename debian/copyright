@@ -105,7 +105,7 @@ Files: src/kjs/JSVariableObject.cpp
        src/kjs/JSVariableObject.h
 Copyright: 2007-2008, Apple Inc
            2008, Maksim Orlovich <maksim@kde.org>
-License: BSD-3-clause or LGPL-2+
+License: LGPL-2+-partially-BSD-3-clause
   This library is free software; you can redistribute it and/or
   modify it under the terms of the GNU Library General Public
   License as published by the Free Software Foundation; either
