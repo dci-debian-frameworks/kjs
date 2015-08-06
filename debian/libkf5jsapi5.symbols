@@ -94,14 +94,14 @@ libKF5JSApi.so.5 libkf5jsapi5 #MINVER#
  _ZNK9KJSResult11isExceptionEv@Base 4.96.0
  _ZNK9KJSResult12errorMessageEv@Base 4.96.0
  _ZNK9KJSResult5valueEv@Base 4.96.0
- _ZTIN14WTFNoncopyable11NoncopyableE@Base 4.96.0
+ (arch=!armhf)_ZTIN14WTFNoncopyable11NoncopyableE@Base 4.96.0
  _ZTIN3KJS14JSGlobalObjectE@Base 4.96.0
  (arch=!armel !armhf)_ZTIN3KJS6JSCellE@Base 5.0.0
- _ZTIN3KJS7JSValueE@Base 4.96.0
- _ZTSN14WTFNoncopyable11NoncopyableE@Base 4.96.0
+ (arch=!armhf)_ZTIN3KJS7JSValueE@Base 4.96.0
+ (arch=!armhf)_ZTSN14WTFNoncopyable11NoncopyableE@Base 4.96.0
  _ZTSN3KJS14JSGlobalObjectE@Base 4.96.0
  (arch=!armel !armhf)_ZTSN3KJS6JSCellE@Base 5.0.0
- _ZTSN3KJS7JSValueE@Base 4.96.0
+ (arch=!armhf)_ZTSN3KJS7JSValueE@Base 4.96.0
  _ZTVN3KJS14JSGlobalObjectE@Base 4.96.0
  (arch=!armel !armhf)_ZTVN3KJS6JSCellE@Base 5.0.0
- _ZTVN3KJS7JSValueE@Base 4.96.0
+ (arch=!armhf)_ZTVN3KJS7JSValueE@Base 4.96.0
