@@ -492,7 +492,7 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZTVN3KJS19InternalFunctionImpE@Base 4.96.0
  _ZTVN3KJS21StandardGlobalPackageE@Base 4.96.0
  _ZTVN3KJS6JSCellE@Base 4.96.0
- _ZTVN3KJS7JSValueE@Base 4.96.0
+ (arch=!armhf)_ZTVN3KJS7JSValueE@Base 5.12.0
  _ZTVN3KJS7PackageE@Base 4.96.0
  _ZTVN3KJS8DebuggerE@Base 4.96.0
  _ZTVN3KJS8JSObjectE@Base 4.96.0

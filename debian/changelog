@@ -1,3 +1,16 @@
+kjs (5.12.0-0ubuntu4) wily; urgency=medium
+
+  * Mangle debian/libkf5jsapi5.symbols in a similar way for armhf.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 06 Aug 2015 09:29:06 +0200
+
+kjs (5.12.0-0ubuntu3) wily; urgency=medium
+
+  * debian/libkf5js5.symbols: Drop duplicate JSValue symbol, fixing FTBFS on
+    armhf.
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 06 Aug 2015 09:08:25 +0200
+
 kjs (5.12.0-0ubuntu2) wily; urgency=medium
 
   * Update symbols
