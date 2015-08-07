@@ -1,3 +1,9 @@
+kjs (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 15:42:41 +0200
+
 kjs (5.12.0-0ubuntu4) wily; urgency=medium
 
   * Mangle debian/libkf5jsapi5.symbols in a similar way for armhf.
