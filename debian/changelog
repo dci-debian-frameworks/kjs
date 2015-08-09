@@ -1,6 +1,16 @@
 kjs (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * new upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files:
+    - Re-add a couple of optional symbols:
+      _ZNK3KJS7JSValue7toInt32EPNS_9ExecStateE
+      _ZNK3KJS7JSValue9getUInt32ERj
+      These symbols are only leaked in GCC 4 and are functions inlined with
+      ALWAYS_INLINE, a macro defined in <wtf/Platform.h> which ends up using
+      __attribute__((always_inline))
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 15:42:41 +0200
 
