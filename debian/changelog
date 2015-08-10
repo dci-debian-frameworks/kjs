@@ -1,4 +1,4 @@
-kjs (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
+kjs (5.13.0-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * new upstream release
@@ -12,7 +12,7 @@ kjs (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
       ALWAYS_INLINE, a macro defined in <wtf/Platform.h> which ends up using
       __attribute__((always_inline))
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 15:42:41 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:23:56 +0200
 
 kjs (5.12.0-0ubuntu4) wily; urgency=medium
 
