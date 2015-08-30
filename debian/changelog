@@ -1,8 +1,8 @@
-kjs (5.13.0-1~) UNRELEASED; urgency=medium
+kjs (5.13.0-1) unstable; urgency=medium
 
   * New upstream release (5.13.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 20:15:03 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 21:03:56 +0200
 
 kjs (5.12.0-1) unstable; urgency=medium
 
