@@ -1,3 +1,10 @@
+kjs (5.14.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Update symbols files for mips64el and sparc64
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 26 Sep 2015 12:17:32 -0400
+
 kjs (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
