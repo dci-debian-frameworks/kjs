@@ -1,3 +1,9 @@
+kjs (5.14.0-3) UNRELEASED; urgency=medium
+
+  * Update symbols files from buildds logs (5.14.0-2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 05 Oct 2015 16:29:32 +0200
+
 kjs (5.14.0-2) unstable; urgency=medium
 
   * Team upload.
