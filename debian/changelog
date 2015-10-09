@@ -1,9 +1,9 @@
-kjs (5.15.0-1~) UNRELEASED; urgency=medium
+kjs (5.15.0-1) unstable; urgency=medium
 
   * Update symbols files from buildds logs (5.14.0-2).
   * New upstream release (5.15.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 05 Oct 2015 17:06:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:56 +0200
 
 kjs (5.14.0-2) unstable; urgency=medium
 
