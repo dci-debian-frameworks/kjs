@@ -1,8 +1,8 @@
-kjs (5.18.0-1~) UNRELEASED; urgency=medium
+kjs (5.18.0-1) experimental; urgency=medium
 
   * New upstream release (5.18.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 21:10:24 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:45 +0100
 
 kjs (5.16.0-1) unstable; urgency=medium
 
