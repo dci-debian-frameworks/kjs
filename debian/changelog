@@ -1,3 +1,10 @@
+kjs (5.19.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Refreshing symbols
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 02 Mar 2016 15:25:41 +0000
+
 kjs (5.18.0-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]

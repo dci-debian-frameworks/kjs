@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 alpha arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.18.0+git20160302.0359+16.04 amd64 i386
 libKF5JS.so.5 libkf5js5 #MINVER#
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4.96.0
  _ZN3KJS10Identifier3addEPKNS_5UCharEi@Base 4.96.0
@@ -216,6 +216,7 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZN3KJS7UString6appendERKS0_@Base 4.96.0
  _ZN3KJS7UString6appendERKS0_ii@Base 4.96.0
  _ZN3KJS7UString6appendEt@Base 4.96.0
+ _ZN3KJS7UString9maxUCharsEv@Base 5.18.0+git20160302.0359+16.04
  _ZN3KJS7UStringC1ENS0_5EmptyE@Base 4.96.0
  _ZN3KJS7UStringC1EPKNS_5UCharEi@Base 4.96.0
  _ZN3KJS7UStringC1EPKc@Base 4.96.0
