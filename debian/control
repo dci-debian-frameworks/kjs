@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
                kdoctools-dev (>= 5.18.0~),
                libpcre3-dev,
                pkg-config,
@@ -13,8 +13,8 @@ Build-Depends: cmake (>= 2.8.12),
                qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kjs
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kjs.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kjs.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kjs.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kjs.git
 
 Package: libkf5kjs-dev
 Section: libdevel
@@ -49,18 +49,3 @@ Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
  This package is part of KDE Frameworks 5.
-
-Package: libkf5js5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5js5 (= ${binary:Version}),
-         libkf5jsapi5 (= ${binary:Version}),
-         ${misc:Depends}
-Description: Support for JS scripting in Qt applications
- Addon library to Qt which adds JavaScript scripting support.
- .
- This package is part of KDE Frameworks 5.
- .
- This package contains the debug symbols.
