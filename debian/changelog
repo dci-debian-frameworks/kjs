@@ -1,6 +1,6 @@
-kjs (5.21.0-1~1.gbpd31c10) UNRELEASED; urgency=medium
+kjs (5.21.0-1~2.gbpe95ed0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d31c108e42d32adc7fb72dffc4c89cb9a6c59d6c **
+  ** SNAPSHOT build @e95ed075c457ad2f5904e4b1937016fc8d5baa02 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -11,6 +11,7 @@ kjs (5.21.0-1~1.gbpd31c10) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.19.0-1).
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -23,7 +24,7 @@ kjs (5.21.0-1~1.gbpd31c10) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:28:20 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 06 May 2016 20:35:39 +0200
 
 kjs (5.19.0-1) experimental; urgency=medium
 
