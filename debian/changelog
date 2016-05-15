@@ -1,3 +1,13 @@
+kjs (5.22.0-1~1.gbpb967e7) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b967e77b86742b01d725ab2468ad0b71c1803560 **
+
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update symbols files from buildds logs (5.21.0-1)
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 01:41:45 +0200
+
 kjs (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
