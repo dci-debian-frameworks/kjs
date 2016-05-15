@@ -1,7 +1,16 @@
-Index: kjs/src/wtf/RefPtrHashMap.h
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Mon, 16 May 2016 00:28:07 +0200
+Subject: add_missing_ifndef
+
 ===================================================================
---- kjs.orig/src/wtf/RefPtrHashMap.h	2015-02-05 10:30:30.532783170 +0100
-+++ kjs/src/wtf/RefPtrHashMap.h	2015-02-05 15:44:25.579499347 +0100
+---
+ src/wtf/RefPtrHashMap.h | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/src/wtf/RefPtrHashMap.h b/src/wtf/RefPtrHashMap.h
+index c044efb..a8e003f 100644
+--- a/src/wtf/RefPtrHashMap.h
++++ b/src/wtf/RefPtrHashMap.h
 @@ -16,7 +16,10 @@
   * the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
   * Boston, MA 02110-1301, USA.
@@ -14,7 +23,7 @@ Index: kjs/src/wtf/RefPtrHashMap.h
  
  namespace WTF
  {
-@@ -347,3 +350,5 @@
+@@ -347,3 +350,5 @@ HashMap<RefPtr<T>, U, V, W, MappedTraits>::take(RawKeyType key)
  }
  
  } // namespace WTF
