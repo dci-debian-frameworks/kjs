@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.21.0 hppa sparc64
+# SymbolsHelper-Confirmed: 5.22.0 amd64 armhf i386
 libKF5JS.so.5 libkf5js5 #MINVER#
  _ZN3KJS10Identifier11addSlowCaseEPNS_7UString3RepE@Base 4.96.0
  _ZN3KJS10Identifier3addEPKNS_5UCharEi@Base 4.96.0
@@ -130,6 +130,12 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZN3KJS17CommonIdentifiers6sharedEv@Base 4.96.0
  _ZN3KJS17CommonIdentifiersC1Ev@Base 4.96.0
  _ZN3KJS17CommonIdentifiersC2Ev@Base 4.96.0
+ _ZN3KJS17FunctionPrototype14callAsFunctionEPNS_9ExecStateEPNS_8JSObjectERKNS_4ListE@Base 5.22.0
+ _ZN3KJS17FunctionPrototypeC1EPNS_9ExecStateE@Base 5.22.0
+ _ZN3KJS17FunctionPrototypeC2EPNS_9ExecStateE@Base 5.22.0
+ _ZN3KJS17FunctionPrototypeD0Ev@Base 5.22.0
+ _ZN3KJS17FunctionPrototypeD1Ev@Base 5.22.0
+ _ZN3KJS17FunctionPrototypeD2Ev@Base 5.22.0
  _ZN3KJS17PropertyNameArray3addERKNS_10IdentifierE@Base 4.96.0
  _ZN3KJS18PropertyDescriptor11setWritableEb@Base 4.96.0
  _ZN3KJS18PropertyDescriptor13setEnumerableEb@Base 4.96.0
@@ -451,6 +457,7 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZTIN3KJS13PackageObjectE@Base 4.96.0
  _ZTIN3KJS14JSGlobalObjectE@Base 4.96.0
  _ZTIN3KJS15ObjectPrototypeE@Base 4.96.0
+ _ZTIN3KJS17FunctionPrototypeE@Base 5.22.0
  _ZTIN3KJS19InternalFunctionImpE@Base 4.96.0
  _ZTIN3KJS21StandardGlobalPackageE@Base 4.96.0
  _ZTIN3KJS6JSCellE@Base 4.96.0
@@ -465,6 +472,7 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZTSN3KJS13PackageObjectE@Base 4.96.0
  _ZTSN3KJS14JSGlobalObjectE@Base 4.96.0
  _ZTSN3KJS15ObjectPrototypeE@Base 4.96.0
+ _ZTSN3KJS17FunctionPrototypeE@Base 5.22.0
  _ZTSN3KJS19InternalFunctionImpE@Base 4.96.0
  _ZTSN3KJS21StandardGlobalPackageE@Base 4.96.0
  _ZTSN3KJS6JSCellE@Base 4.96.0
@@ -478,6 +486,7 @@ libKF5JS.so.5 libkf5js5 #MINVER#
  _ZTVN3KJS13PackageObjectE@Base 4.96.0
  _ZTVN3KJS14JSGlobalObjectE@Base 4.96.0
  _ZTVN3KJS15ObjectPrototypeE@Base 4.96.0
+ _ZTVN3KJS17FunctionPrototypeE@Base 5.22.0
  _ZTVN3KJS19InternalFunctionImpE@Base 4.96.0
  _ZTVN3KJS21StandardGlobalPackageE@Base 4.96.0
  _ZTVN3KJS6JSCellE@Base 4.96.0
