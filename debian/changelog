@@ -1,13 +1,12 @@
-kjs (5.22.0-1~2.gbped4635) UNRELEASED; urgency=medium
+kjs (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ed4635b7b340cc30e6ddf4e2685f56fe475fe33b **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
   * Update symbols files from buildds logs (5.21.0-1)
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 10:52:54 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 May 2016 09:15:39 +0200
 
 kjs (5.21.0-1) experimental; urgency=medium
 
