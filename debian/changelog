@@ -1,3 +1,11 @@
+kjs (5.24.0-1~1.gbp43c08e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @43c08ecceefff7ca3a9d6cbd140b18c80822de49 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 12:28:25 +0200
+
 kjs (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
