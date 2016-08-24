@@ -1,20 +1,15 @@
-kjs (5.25.0-1~2.gbp493df0) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @493df0938be7a5850fc21da3c8892c86161b62a0 **
+kjs (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @43c08ecceefff7ca3a9d6cbd140b18c80822de49 **
-
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-  * Update symbols files
   * Update symbols files.
 
   [ Maximiliano Curia ]
   * Update symbols file to make it compatible with gcc 6.
     Thanks to Martin Michlmayr for the report (Closes: 811977)
+  * Bump group breaks (5.25)
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 16 Aug 2016 18:29:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 24 Aug 2016 16:04:28 +0200
 
 kjs (5.23.0-1) unstable; urgency=medium
 
