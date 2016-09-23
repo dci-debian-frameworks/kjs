@@ -1,8 +1,17 @@
-Index: kjs/src/kjs/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Mon, 16 May 2016 00:28:07 +0200
+Subject: install_missing_headers
+
 ===================================================================
---- kjs.orig/src/kjs/CMakeLists.txt	2015-03-23 15:59:49.011850825 +0100
-+++ kjs/src/kjs/CMakeLists.txt	2015-03-23 16:01:09.524640872 +0100
-@@ -305,10 +305,14 @@
+---
+ src/kjs/CMakeLists.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/kjs/CMakeLists.txt b/src/kjs/CMakeLists.txt
+index a51a71d..6fc5361 100644
+--- a/src/kjs/CMakeLists.txt
++++ b/src/kjs/CMakeLists.txt
+@@ -305,10 +305,14 @@ install(FILES
    ustring.h
    value.h
    ${CMAKE_CURRENT_BINARY_DIR}/global.h

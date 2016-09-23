@@ -4,6 +4,19 @@ kjs (5.26.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:32:20 +0000
 
+kjs (5.25.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+  [ Maximiliano Curia ]
+  * Update symbols file to make it compatible with gcc 6.
+    Thanks to Martin Michlmayr for the report (Closes: 811977)
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 24 Aug 2016 16:04:28 +0200
+
 kjs (5.25.0-0neon) xenial; urgency=medium
 
   * New release
@@ -16,17 +29,52 @@ kjs (5.24.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:43:31 +0000
 
+kjs (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.22.0-1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 09:41:56 +0200
+
 kjs (5.23.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:40:20 +0000
 
+kjs (5.22.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update symbols files from buildds logs (5.21.0-1)
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 May 2016 09:15:39 +0200
+
 kjs (5.22.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:35:52 +0000
+
+kjs (5.21.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.19.0-1).
+  * Bump Standards-Version to 3.9.8
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 May 2016 22:12:18 +0200
 
 kjs (5.21.0-0neon) xenial; urgency=medium
 
