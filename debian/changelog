@@ -1,17 +1,14 @@
-kjs (5.26.0-1~2.gbp72fcb5) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @72fcb527b27f27e158de15d159ad709be9031eda **
+kjs (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @d461a96aa532f33e48426fea599a1ea1694c6700 **
-
   * Update build-deps and deps with the info from cmake
   * Update symbols files with the buildds logs.
 
   [ Maximiliano Curia ]
   * Update install files
+  * Bump group breaks (5.26)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 10 Sep 2016 17:25:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:03:37 +0200
 
 kjs (5.25.0-1) unstable; urgency=medium
 
