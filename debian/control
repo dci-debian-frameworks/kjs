@@ -5,8 +5,9 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.25.0~),
+               extra-cmake-modules (>= 5.26.0~),
                kdoctools-dev,
+               libkf5doctools-dev,
                libpcre3-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
@@ -31,7 +32,7 @@ Description: Support for JS scripting in Qt applications
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
-Breaks: libkf5jsembed-dev (<< 5.25), libkf5khtml-dev (<< 5.25)
+Breaks: libkf5jsembed-dev (<< 5.26), libkf5khtml-dev (<< 5.26)
 
 Package: libkf5js5
 Architecture: any
@@ -41,10 +42,10 @@ Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
  This package is part of KDE Frameworks 5.
-Breaks: libkf5jsembed-dev (<< 5.25),
-        libkf5jsembed5 (<< 5.25),
-        libkf5khtml-bin (<< 5.25),
-        libkf5khtml5 (<< 5.25)
+Breaks: libkf5jsembed-dev (<< 5.26),
+        libkf5jsembed5 (<< 5.26),
+        libkf5khtml-bin (<< 5.26),
+        libkf5khtml5 (<< 5.26)
 
 Package: libkf5jsapi5
 Architecture: any

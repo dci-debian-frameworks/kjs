@@ -10,6 +10,18 @@ kjs (5.26.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:32:20 +0000
 
+kjs (5.26.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files with the buildds logs.
+
+  [ Maximiliano Curia ]
+  * Update install files
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:03:37 +0200
+
 kjs (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]

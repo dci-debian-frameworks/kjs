@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.25.0 armhf
+# SymbolsHelper-Confirmed: 5.25.0 armel armhf
 libKF5JSApi.so.5 libkf5jsapi5 #MINVER#
  _ZN10KJSBooleanC1Eb@Base 4.96.0
  _ZN10KJSBooleanC2Eb@Base 4.96.0
@@ -37,9 +37,9 @@ libKF5JSApi.so.5 libkf5jsapi5 #MINVER#
  _ZN15KJSGlobalObjectC1Ev@Base 4.96.0
  _ZN15KJSGlobalObjectC2Ev@Base 4.96.0
  (arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 5.0.0
- (optional=gccinternal|arch=!armhf)_ZN3KJS7JSValueD0Ev@Base 4.96.0
- (optional=gccinternal|arch=!armhf)_ZN3KJS7JSValueD1Ev@Base 4.96.0
- (optional=gccinternal|arch=!armhf)_ZN3KJS7JSValueD2Ev@Base 4.96.0
+ (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD0Ev@Base 4.96.0
+ (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD1Ev@Base 4.96.0
+ (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD2Ev@Base 4.96.0
  _ZN7KJSDateC1EP10KJSContextRK9QDateTime@Base 4.96.0
  _ZN7KJSDateC2EP10KJSContextRK9QDateTime@Base 4.96.0
  _ZN7KJSNullC1Ev@Base 4.96.0
