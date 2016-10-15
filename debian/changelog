@@ -1,10 +1,13 @@
-kjs (5.27.0-1~1.gbpff6903) UNRELEASED; urgency=medium
+kjs (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ff6903f65d80b21723e7599d91adfcf4ec92203d **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 12:28:39 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:10:00 +0200
 
 kjs (5.26.0-1) unstable; urgency=medium
 
