@@ -1,9 +1,10 @@
-kjs (5.28.0-2~) UNRELEASED; urgency=medium
+kjs (5.35.0-1~) UNRELEASED; urgency=medium
 
   * Update symbols file for gcc-7.
     Thanks to Matthias Klose for reporting (Closes: 853475)
+  * New upstream release (5.35.0).
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Apr 2017 11:03:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:59:43 +0200
 
 kjs (5.28.0-1) unstable; urgency=medium
 
