@@ -1,4 +1,4 @@
-kjs (5.35.0-1~1) UNRELEASED; urgency=medium
+kjs (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update symbols file for gcc-7.
@@ -8,6 +8,8 @@ kjs (5.35.0-1~1) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Bump group breaks (5.35)
   * Update symbols files.
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Harald Sitter ]
   * qt5.7 now wants c++11
@@ -16,7 +18,7 @@ kjs (5.35.0-1~1) UNRELEASED; urgency=medium
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 23:12:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 14:03:32 +0200
 
 kjs (5.28.0-1) unstable; urgency=medium
 
