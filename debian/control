@@ -11,28 +11,11 @@ Build-Depends: cmake (>= 3.0~),
                libpcre3-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/kjs
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kjs.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kjs.git
-
-Package: libkf5kjs-dev
-Section: libdevel
-Architecture: any
-Depends: libkf5js5 (= ${binary:Version}),
-         libkf5jsapi5 (= ${binary:Version}),
-         libpcre3-dev,
-         qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Support for JS scripting in Qt applications
- Addon library to Qt which adds JavaScript scripting support.
- .
- This package is part of KDE Frameworks 5.
- .
- This package contains the development files.
-Breaks: libkf5jsembed-dev (<< 5.37), libkf5khtml-dev (<< 5.37)
 
 Package: libkf5js5
 Architecture: any
@@ -45,7 +28,7 @@ Description: Support for JS scripting in Qt applications
 Breaks: libkf5jsembed-dev (<< 5.37),
         libkf5jsembed5 (<< 5.37),
         libkf5khtml-bin (<< 5.37),
-        libkf5khtml5 (<< 5.37)
+        libkf5khtml5 (<< 5.37),
 
 Package: libkf5jsapi5
 Architecture: any
@@ -55,3 +38,20 @@ Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
  This package is part of KDE Frameworks 5.
+
+Package: libkf5kjs-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5js5 (= ${binary:Version}),
+         libkf5jsapi5 (= ${binary:Version}),
+         libpcre3-dev,
+         qtbase5-dev (>= 5.7.0~),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: Support for JS scripting in Qt applications
+ Addon library to Qt which adds JavaScript scripting support.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the development files.
+Breaks: libkf5jsembed-dev (<< 5.37), libkf5khtml-dev (<< 5.37)
