@@ -24,10 +24,10 @@ Description: Support for JS scripting in Qt applications
  Addon library to Qt which adds JavaScript scripting support.
  .
  This package is part of KDE Frameworks 5.
-Breaks: libkf5jsembed-dev (<< 5.37),
-        libkf5jsembed5 (<< 5.37),
-        libkf5khtml-bin (<< 5.37),
-        libkf5khtml5 (<< 5.37),
+Breaks: libkf5jsembed-dev (<< 5.41),
+        libkf5jsembed5 (<< 5.41),
+        libkf5khtml-bin (<< 5.41),
+        libkf5khtml5 (<< 5.41),
 
 Package: libkf5jsapi5
 Architecture: any
@@ -53,4 +53,4 @@ Description: Support for JS scripting in Qt applications
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
-Breaks: libkf5jsembed-dev (<< 5.37), libkf5khtml-dev (<< 5.37)
+Breaks: libkf5jsembed-dev (<< 5.41), libkf5khtml-dev (<< 5.41)
